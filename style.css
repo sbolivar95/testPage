@@ -1,0 +1,222 @@
+.header {
+  /* border: thick double; */
+  /* background-color: #333b33; */
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+
+.textHeader {
+  color: #a8a8a8;
+  text-align: left;
+}
+
+#body {
+  background-image: url('images/photo-1552627019-947c3789ffb5.jpg');
+  margin-top: 0px;
+  margin: 0px;
+  /* background-image: url('images/photo-1552627019-947c3789ffb5.jpg'); */
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100%;
+}
+
+.test {
+  border: solid black;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: turquoise;
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.box1 {
+  float: left;
+  /* width: 600px; */
+  height: auto;
+  position: relative;
+  left: 800px;
+  top: px;
+  /* background: red; */
+  /* border: 1px solid black; */
+}
+
+.box2 {
+  float: right;
+  width: auto;
+  height: auto;
+  /* margin-left: 620px; */
+  position: absolute;
+  right: 300px;
+  /* background: blue;
+  border: 1px solid black; */
+}
+
+.box3 {
+  float: none;
+  width: auto;
+  height: auto;
+  /* margin-left: 620px; */
+  position: left;
+  left: px;
+  /* background: blue;
+  border: 1px solid black; */
+}
+
+#number {
+  width: auto;
+  overflow: hidden;
+  color: white;
+  font-size: large;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  display: none;
+}
+
+.sections {
+  position: relative;
+  margin: 10%;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+#header1 {
+  position: relative;
+  margin-left: 0px;
+  width: auto;
+  padding-bottom: 50px;
+  background-color: #151515;
+  height: 200px;
+  top: 200px;
+}
+
+#textHeader1 {
+  padding-top: 100px;
+  color: #a8a8a8;
+  text-align: center;
+}
+
+#paraHeader1 {
+  color: white;
+  padding-top: 200px;
+  width: 20px;
+}
+
+#divHeader1 {
+  /* background-image: url(images/photo-1552627019-947c3789ffb5.jpg);
+  background-size: contain;
+  background-repeat: repeat; */
+  width: auto;
+  padding-left: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  align-content: center;
+}
+
+/* #image1 {
+  float: left;
+}
+
+#iamge2 {
+  float: left;
+}
+
+#image3 {
+  float: left;
+}
+
+#image4 {
+  float: left;
+}
+#image5 {
+  float: left;
+} */
+
+.imageScale {
+  float: left;
+  margin: 5px;
+  border: solid;
+  border-color: white;
+}
+
+.images {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-right: 30px;
+}

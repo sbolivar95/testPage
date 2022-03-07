@@ -1,3 +1,7 @@
+html {
+  margin: 0%;
+}
+
 .header {
   /* border: thick double; */
   /* background-color: #333b33; */
@@ -197,8 +201,9 @@
 #section3 {
   padding-left: 48px;
   padding-right: 45px;
-  background-image: url(images/wp2619329.png);
+  background-image: url(images/Black-and-gold-wallpapers-android-high-resolution-wallpapers.png);
   background-size: cover;
+  background-repeat: repeat;
 }
 
 .imagePosition {
@@ -222,9 +227,11 @@
 }
 
 #profileImage {
+  background-image: url(images/images2/1646617332007.jpg);
   border: solid white;
   width: 500px;
   height: 500px;
+  background-size: contain;
 }
 
 #profileImagePosition {

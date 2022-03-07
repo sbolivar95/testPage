@@ -1,8 +1,5 @@
 'use strict';
 
-import markerIconPng from 'leaflet/dist/images/marker-icon.png';
-import { Icon } from 'leaflet';
-
 const html = document.querySelector('html');
 const body = document.querySelector('#body');
 const phoneNumber = document.getElementById('number');
@@ -35,7 +32,7 @@ const clickLink2 = document
     window.open('https://www.facebook.com/Saavedra-Tattoo-105570378726404');
   });
 
-var map = L.map('map').setView([-17.7755912, -63.1878051], 17);
+const map = L.map('map').setView([-17.7755912, -63.1878051], 17);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution:

@@ -30,10 +30,3 @@ const clickLink2 = document
     event.preventDefault();
     window.open('https://www.facebook.com/Saavedra-Tattoo-105570378726404');
   });
-
-const clickLink3 = document
-  .querySelector('#link3')
-  .addEventListener('click', function () {
-    event.preventDefault();
-    phoneNumber.style.display = 'block';
-  });

@@ -1,5 +1,8 @@
 'use strict';
 
+import markerIconPng from 'leaflet/dist/images/marker-icon.png';
+import { Icon } from 'leaflet';
+
 const html = document.querySelector('html');
 const body = document.querySelector('#body');
 const phoneNumber = document.getElementById('number');

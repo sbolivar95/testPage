@@ -22,7 +22,7 @@ html {
 
 #mainClass {
   background-image: url(images/photo-1552627019-947c3789ffb5.jpg);
-  background-size: cover;
+  background-size: contain;
 }
 
 #body {

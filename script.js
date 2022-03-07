@@ -14,7 +14,7 @@ const clickNews = document
   .querySelector('#news')
   .addEventListener('click', function () {
     event.preventDefault();
-    console.log('News');
+    document.getElementById('header2').scrollIntoView();
   });
 
 const clickLink1 = document

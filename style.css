@@ -201,9 +201,10 @@ html {
 #section3 {
   padding-left: 48px;
   padding-right: 45px;
-  background-image: url(images/Black-and-gold-wallpapers-android-high-resolution-wallpapers.png);
-  background-size: cover;
+  background-image: url(images/e4981a3dd4aa2fa6f0bc84cde9087c7a.jpg);
+  background-size: contain;
   background-repeat: repeat;
+  display: flex;
 }
 
 .imagePosition {

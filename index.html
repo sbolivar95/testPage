@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Web Page!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
     <script defer src="script.js"></script>
-    <link defer rel="stylesheet" href="style.css" />
+    <title>Test Web Page!</title>
   </head>
   <body id="body" style="background-color: rgb(194, 197, 197)">
     <main class="sections" id="mainClass">
@@ -15,7 +33,7 @@
           <h1 class="textHeader">SAAVEDRA TATTOO SHOP</h1>
         </header>
         <div class="navbar">
-          <a id="home" href="#home">Home</a>
+          <a id="home" href="#map">Mapa</a>
           <a id="news" href="#header2">My Art!</a>
           <div class="dropdown">
             <button class="dropbtn">Social Media</button>
@@ -36,9 +54,13 @@
           <p>AV. Busch | Pasillo Haiti | #301</p>
           <p>
             Referencia
-            <a href="https://www.google.com/maps/@-17.7762397,-63.188064,18.21z"
-              >Google Maps</a
+            <a
+              id="googleMap"
+              href="https://www.google.com/maps/@-17.7762397,-63.188064,18.21z"
+              target="_blank"
             >
+              Google Maps </a
+            >;
           </p>
           <p>
             Pueden llamarme y Agendar cita en el siguiente numero +591
@@ -148,5 +170,14 @@
         </div>
       </section>
     </section>
+    <header id="header3">
+      <h1 id="textHeader3">Mapa</h1>
+    </header>
+    <section id="section3" class="contactNumberPosition">
+      <div id="map"></div>
+    </section>
+    <footer style="color: white; background-color: black; text-align: center">
+      Created by Sebastian Bolivar
+    </footer>
   </body>
 </html>
